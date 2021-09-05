@@ -1,0 +1,40 @@
+https://www.census.gov/data/developers/data-sets/acs-5year.html
+
+ Your API key is 0bbb3b25a5222043c09e77752ac1b37dd0f568e4
+
+so the geography has to be block group 
+
+Explanation about the difference between 1 year data and 5 year data
+https://www.census.gov/programs-surveys/acs/guidance/estimates.html
+
+
+Python package that is a wrapper for the python API 
+https://pypi.org/project/census/
+
+Youtube video on accessing census API
+https://www.youtube.com/watch?v=dlOUZcrqiUA
+
+Modularizing Census API
+https://www.youtube.com/watch?v=l47HptzM7ao
+
+
+Available variables at block group level
+https://api.census.gov/data/2019/acs/acs5?get=NAME,group(B01001)&for=us:1
+
+
+Variables used in the Census  Dataset
+https://api.census.gov/data/2019/acs/acs5/variables.html
+
+Video on how to add data to postgres table
+https://www.youtube.com/watch?v=OOSl2jeAA5U
+
+block group hieracrchy
+https://learn.arcgis.com/en/related-concepts/united-states-census-geography.htm
+
+
+
+B06007_006E
+
+Missouri State code
+
+https://api.census.gov/data/2019/acs/acs1?get=NAME,B01001_001E&for=block%20group:*&in=state:26%20county:001&key=YOUR_KEY_GOES_HERE
